@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Twitter Plugin</title>
+    <link rel="stylesheet" href="options.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      
+      <div class="title">Twitter Plugin</div>
+
+      <div class="toolbar">
+        <div class="container">
+          <span>Category</span>
+          <button onClick="options.addCategory()">+</button>
+        </div>
+        <div class="container">
+          <span>Quote</span>
+          <button onClick="options.addQuote()">+</button>
+        </div>
+        <div class="container">
+          <span>Data</span>
+          <button id="export">Export</button>
+          <button id="import">Import</button>
+          <input style="display: none;" type="file" id="selectFiles" accept="application/json" />
+        </div>
+      </div>
+
+    </div>
+    <script type="module" src="options.js"></script>
+  </body>
+</html>

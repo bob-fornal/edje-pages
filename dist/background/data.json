@@ -1,0 +1,31 @@
+{
+  "links": [{
+    "title": "EDJE Connect",
+    "url": "https://sites.google.com/leadingedje.com/edjeconnect?pli=1",
+    "icon": "https://lh5.googleusercontent.com/pduoE-xI37kvEW_OWa_1uNfAnAQr4BjBIuL-B1rIsDBoO0Qr9aIG7INtviVL4IygHJ97m7BTn_HKFUzIYM_UZ93tUX9oW6I"
+  }, {
+    "title": "EDJE Timesheet",
+    "url": "http://timesheet.leadingedje.com/user/employeestatus",
+    "icon": "https://lh5.googleusercontent.com/pduoE-xI37kvEW_OWa_1uNfAnAQr4BjBIuL-B1rIsDBoO0Qr9aIG7INtviVL4IygHJ97m7BTn_HKFUzIYM_UZ93tUX9oW6I"
+  }, {
+    "title": "Team Profile System",
+    "url": "https://tps.leadingedje.com/",
+    "icon": "https://lh5.googleusercontent.com/pduoE-xI37kvEW_OWa_1uNfAnAQr4BjBIuL-B1rIsDBoO0Qr9aIG7INtviVL4IygHJ97m7BTn_HKFUzIYM_UZ93tUX9oW6I"
+  }, {
+    "title": "EDJE XP Form",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSeKFVgER3_m_h5xZR08canc1fcN3Nl96lTH0nC70z9Al_9vWw/viewform",
+    "icon": "https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png"
+  }, {
+    "title": "BOB",
+    "url": "https://app.hibob.com/home",
+    "icon": ""
+  }, {
+    "title": "Victory Capital",
+    "url": "https://mysecure.vcm.com/accountholder",
+    "icon": "https://mysecure.vcm.com/favicon.ico"
+  }, {
+    "title": "Envoy",
+    "url": "https://dashboard.envoy.com/",
+    "icon": "https://dashboard.envoy.com/assets/images/favicon-0cb238856081eae374c18336c1b6ee0c.ico"
+  }]
+}

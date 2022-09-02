@@ -1,0 +1,38 @@
+{
+  "name": "EDJE Pages",
+  "description": "Common Leading EDJE Links",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_security_policy": {
+    "script-src": "self",
+    "object-src": "self"
+ },
+  "background": {
+    "service_worker": "background/background.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [{
+    "resources": [
+      "background/data.json"
+    ],
+    "matches": []
+  }],
+  "options_page": "options/options.html",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "/images/edje-16.png",
+      "32": "/images/edje-32.png",
+      "48": "/images/edje-48.png",
+      "128": "/images/edje-128.png"
+    }
+  },
+  "icons": {
+    "96": "/popup/images/logo-le-346-60.png",
+    "16": "/images/edje-16.png",
+    "32": "/images/edje-32.png",
+    "48": "/images/edje-48.png",
+    "128": "/images/edje-128.png"
+  }
+}

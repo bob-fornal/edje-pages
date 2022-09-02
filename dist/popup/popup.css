@@ -1,0 +1,64 @@
+body {
+  background-color: #ddd;
+}
+
+.wrapper {
+  font-family: Arial;
+  font-size: 1.2em;
+  margin: 1em;
+  width: 22em;
+}
+
+.title {
+  color: blue;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#logo {
+  margin: 0.5em 0;
+  width: 180px;
+}
+
+.link {
+  margin-top: 0.5em;
+  position: relative;
+}
+.icon {
+  position: relative;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  margin-right: 1em;
+}
+.icon.missing {
+  background-color: gray;
+  display: inline-block;
+}
+
+.subtitle {
+  font-weight: bold;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background-color: gray;
+  color: white;
+}
+
+.copyable-item {
+  cursor: pointer;
+  padding: 0.5em;
+  background-color: palegoldenrod;
+}
+.copyable-item:not(.first) {
+  margin-top: 1em;
+}
+.copyable-item.clicked {
+  background-color: palegreen;
+  transition: background-color 1s ease-in-out;
+}
+
+.copyable-item .bold {
+  color: blue;
+  font-weight: bold;
+}
