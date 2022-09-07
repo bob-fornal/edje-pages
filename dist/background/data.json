@@ -2,15 +2,15 @@
   "links": [{
     "title": "EDJE Connect",
     "url": "https://sites.google.com/leadingedje.com/edjeconnect?pli=1",
-    "icon": "https://lh5.googleusercontent.com/pduoE-xI37kvEW_OWa_1uNfAnAQr4BjBIuL-B1rIsDBoO0Qr9aIG7INtviVL4IygHJ97m7BTn_HKFUzIYM_UZ93tUX9oW6I"
+    "icon": "~popup/images/edje-16.png"
   }, {
     "title": "EDJE Timesheet",
     "url": "http://timesheet.leadingedje.com/user/employeestatus",
-    "icon": "https://lh5.googleusercontent.com/pduoE-xI37kvEW_OWa_1uNfAnAQr4BjBIuL-B1rIsDBoO0Qr9aIG7INtviVL4IygHJ97m7BTn_HKFUzIYM_UZ93tUX9oW6I"
+    "icon": "~popup/images/edje-16.png"
   }, {
     "title": "Team Profile System",
     "url": "https://tps.leadingedje.com/",
-    "icon": "https://lh5.googleusercontent.com/pduoE-xI37kvEW_OWa_1uNfAnAQr4BjBIuL-B1rIsDBoO0Qr9aIG7INtviVL4IygHJ97m7BTn_HKFUzIYM_UZ93tUX9oW6I"
+    "icon": "~popup/images/edje-16.png"
   }, {
     "title": "EDJE XP Form",
     "url": "https://docs.google.com/forms/d/e/1FAIpQLSeKFVgER3_m_h5xZR08canc1fcN3Nl96lTH0nC70z9Al_9vWw/viewform",
@@ -18,11 +18,15 @@
   }, {
     "title": "BOB",
     "url": "https://app.hibob.com/home",
-    "icon": ""
+    "icon": "~popup/images/bob-16.ico"
   }, {
-    "title": "Victory Capital",
-    "url": "https://mysecure.vcm.com/accountholder",
-    "icon": "https://mysecure.vcm.com/favicon.ico"
+    "title": "Paychex Flex",
+    "url": "https://myapps.paychex.com/landing_remote/login.do",
+    "icon": "https://myapps.paychex.com/favicon.ico"
+  }, {
+    "title": "American Funds",
+    "url": "https://www.capitalgroup.com/individual/",
+    "icon": "https://www.capitalgroup.com/favicon.ico"
   }, {
     "title": "Envoy",
     "url": "https://dashboard.envoy.com/",

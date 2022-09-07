@@ -3,7 +3,6 @@ const content = document.getElementById("content");
 
 const image = document.getElementById('logo');
 const imageUrl = chrome.runtime.getURL('popup/images/logo-le-346-60.png');
-console.log(imageUrl);
 image.src = imageUrl;
 
 function generateContent () {
@@ -16,11 +15,17 @@ function generateContent () {
       const { title, url, icon } = link;
 
       let image;
-      if (icon.length > 0) {
+      if (icon.length > 0 && icon[0] !== '~') {
         image = document.createElement('img');
         image.classList.add('icon');
         image.src = icon;
-        image.alt = 'favicon';  
+        image.alt = 'favicon';
+      } else if (icon.length > 0) {
+        image = document.createElement('img');
+        image.classList.add('icon');
+        const path = chrome.runtime.getURL(icon.replace('~', ''));
+        image.src = path;
+        image.alt = 'favicon';
       } else {
         image = document.createElement('span');
         image.classList.add('icon');
