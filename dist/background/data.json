@@ -31,5 +31,9 @@
     "title": "Envoy",
     "url": "https://dashboard.envoy.com/",
     "icon": "https://dashboard.envoy.com/assets/images/favicon-0cb238856081eae374c18336c1b6ee0c.ico"
+  }, {
+    "title": "Job Postings",
+    "url": "https://jobs.crelate.com/portal/leadingedje",
+    "icon": "https://www.crelate.com/wp-content/uploads/2020/09/cropped-Crelate_Logo_Symbol-nopadding-32x32.png"
   }]
 }
